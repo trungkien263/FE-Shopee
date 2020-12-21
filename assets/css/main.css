@@ -87,6 +87,7 @@
     border-radius: 3px;
     display: none;
     animation: fadeIn ease-in 0.2s;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
 
@@ -580,7 +581,7 @@
     position: absolute;
     background-color: white;
     width: 107%;
-    top: 96%;
+    top: 106%;
     border-radius: 3px;
     overflow: hidden;
     display: none;
@@ -725,6 +726,7 @@
     will-change: opacity, transform;
     z-index: 99;
     display: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .header__cart:hover .header__cart-has-item {
@@ -734,7 +736,7 @@
 .header__cart-has-item::after {
     content: "";
     position: absolute;
-    top: -3%;
+    top: -2%;
     right: 3%;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -764,6 +766,8 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    height: 300px;
+    overflow-y: auto;
 }
 
 .heaeder__cart-item {
@@ -918,7 +922,7 @@
 
 .container {
     margin-top: 30px;
-    padding-bottom: 160px;
+    /* padding-bottom: 160px; */
     border-bottom: 4px solid var(--primary-color);
 }
 
@@ -1337,6 +1341,11 @@
     padding-left: 0;
 }
 
+.pagination-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .pagination-item__btn {
     border: none;
     margin: 0 15px;
@@ -1380,7 +1389,7 @@
 
 .footer {
     margin-top: 0;
-    border-top: 120px solid white;
+    /* border-top: 120px solid white; */
 }
 
 .customer-care {}
